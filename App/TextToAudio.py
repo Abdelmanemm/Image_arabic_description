@@ -1,13 +1,14 @@
 from gtts import gTTS
 
-
+# Define Class
 class TextToAudio:
+    ''' Take an Arabic text and return speech of text  '''
     def __init__(self):
         pass
     
     def get_audio(self,text,output_file_name="output.mp3"):
         try:
-            # Generate the speech using gTTS
+            # Generate the speech 
             tts = gTTS(text=text, lang='ar')
             
             # Save the audio to an mp3 file
