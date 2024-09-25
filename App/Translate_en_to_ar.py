@@ -1,7 +1,9 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
+# Define Class
 class Translate_en_to_ar:
+    ''' Take an English text and translate it to Arabic using LLM Silma-9B '''
     def __init__(self,model_id="silma-ai/SILMA-9B-Instruct-v1.0"):
         # Load Model
         self.model = AutoModelForCausalLM.from_pretrained(
