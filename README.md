@@ -8,6 +8,7 @@ This project implements an automated pipeline that processes images, generates c
 - [Workflow](#workflow)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Notebook](#notebook)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -73,6 +74,12 @@ To set up this project locally, follow these steps:
 3. Listen to the Arabic audio of the caption.
 4. Choose a suggested question or input your own.
 5. Receive the answer in Arabic.
+
+
+## Notebook
+
+A Jupyter notebook is provided for experimenting with the pipeline and understanding each step of the process in detail. You can find it [here](notebook.ipynb).
+
 
 ## Technologies Used
 
