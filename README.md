@@ -51,14 +51,8 @@ To set up this project locally, follow these steps:
     git clone https://github.com/Abdelmanemm/Image_arabic_description.git
     cd Image_arabic_description
     ```
-
-2. **Install dependencies**:
-    Ensure you have Python 3.8+ installed. Then run:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Download necessary models**:
+    
+2. **Download necessary models**:
     Make sure to download the models used in this pipeline:
     - [Salesforce/blip-image-captioning-large](https://huggingface.co/Salesforce/blip-image-captioning-large)
     - [facebook/mbart-large-50-many-to-many-mmt](https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt)
@@ -66,10 +60,10 @@ To set up this project locally, follow these steps:
     - [microsoft/Phi-3.5-mini-instruct](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)
     - [Salesforce/blip-vqa-base](https://huggingface.co/Salesforce/blip-vqa-base)
 
-4. **Run the pipeline**:
+3. **Run the pipeline**:
     You can run the main script to start the pipeline:
     ```bash
-    python main.py
+    python APP.py
     ```
 
 ## Usage
