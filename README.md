@@ -78,7 +78,7 @@ To set up this project locally, follow these steps:
 
 ## Notebook
 
-A Jupyter notebook is provided for experimenting with the pipeline and understanding each step of the process in detail. You can find it [here](notebook.ipynb).
+A Jupyter notebook is provided for experimenting with the pipeline and understanding each step of the process in detail. You can find it [here](notebook/Image_Captioning_and_Question_Answering_App_(Arabic).ipynb).
 
 
 ## Technologies Used
