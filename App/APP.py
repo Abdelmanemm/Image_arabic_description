@@ -1,6 +1,7 @@
 from ImageCaption import ImageCaption
 from TranslateText import TranslateText
 from TextToAudio import TextToAudio
+from QuestionGenerator import QuestionGenerator
 import gradio as gr
 
 # Define App Class 
