@@ -1,5 +1,5 @@
 from PIL import Image
-from transformers import BlipProcessor, BlipForConditionalGeneration
+from transformers import BlipProcessor, BlipForConditionalGeneration , BlipForQuestionAnswering
 import torch
 
 # Define Class
