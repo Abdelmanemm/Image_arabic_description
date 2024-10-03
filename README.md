@@ -50,7 +50,7 @@ To set up this project locally, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Abdelmanemm/Image_arabic_description.git
-    cd Image_arabic_description
+    cd Image_arabic_description/App/
     ```
     
 2. **Download necessary models**:
