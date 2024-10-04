@@ -8,6 +8,7 @@ This project implements an automated pipeline that processes images, generates c
 - [Workflow](#workflow)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Notebook](#notebook)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -49,7 +50,7 @@ To set up this project locally, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Abdelmanemm/Image_arabic_description.git
-    cd Image_arabic_description
+    cd Image_arabic_description/App/
     ```
     
 2. **Download necessary models**:
@@ -73,6 +74,12 @@ To set up this project locally, follow these steps:
 3. Listen to the Arabic audio of the caption.
 4. Choose a suggested question or input your own.
 5. Receive the answer in Arabic.
+
+
+## Notebook
+
+A Jupyter notebook is provided for experimenting with the pipeline and understanding each step of the process in detail. You can find it [here](notebook/Image_Captioning_and_Question_Answering_App_(Arabic).ipynb).
+
 
 ## Technologies Used
 
